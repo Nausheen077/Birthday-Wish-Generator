@@ -57,3 +57,7 @@ The app will generate a warm birthday message for you.
 ## Live Demo
 
 https://birthday-wish-generator-jfnxeddqrskqevrmjxvvhq.streamlit.app/
+
+## Github Repository
+
+https://github.com/Nausheen077/Birthday-Wish-Generator
