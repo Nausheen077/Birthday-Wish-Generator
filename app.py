@@ -104,11 +104,11 @@ if prompt:
             st.session_state.profile.get("age", ""),
             st.session_state.profile.get("extra_detail", ""),
         )
-        reply = f"Here’s your birthday wish:\n\n{wish}\n\nIf you want, I can make it funnier, shorter, or more heartfelt."
+        reply = f"Here's your birthday wish:\n\n{wish}\n\nIf you want, I can make another one!"
         st.session_state.profile = {}
-        st.session_state.messages.append({"role": "assistant", "content": reply})
-        with st.chat_message("assistant"):
-            st.write(reply)
-        st.stop()
+
+    st.session_state.messages.append({"role": "assistant", "content": reply})
+    with st.chat_message("assistant"):
+        st.write(reply)
 
     
