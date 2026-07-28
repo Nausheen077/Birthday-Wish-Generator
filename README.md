@@ -53,3 +53,7 @@ You can input details like:
 - Extra detail: loves flowers
 
 The app will generate a warm birthday message for you.
+
+## Live Demo
+
+https://birthday-wish-generator-jfnxeddqrskqevrmjxvvhq.streamlit.app/
